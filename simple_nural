@@ -1,0 +1,36 @@
+import math
+
+i1 = float(input("enter first number: "))
+i2 = float(input("enter second number: "))
+target = 0.896
+
+w1 = 0.5
+w2 = 0.36
+n = 0.5  # learning rate
+
+neural_output = 0
+count = 0
+
+
+def loss_function(targeted, output):
+    e = targeted - output
+    return e * e * 0.5
+
+
+def activation(net_input):
+    return 1 / (1 + math.e ** ((-1) * net_input))
+
+
+while abs(target - neural_output) >= 0.000001:
+    net_in = w1 * i1 + w2 * i2
+    neural_output = activation(net_in)
+    error = loss_function(target, neural_output)
+    print("step:", count, " target:", target, " output:", neural_output, " w1:", w1, " w2:", w2)
+    count = count + 1
+    # back pass
+    pw1 = (neural_output - target) * (neural_output * (1 - neural_output)) * i1
+    pw2 = (neural_output - target) * (neural_output * (1 - neural_output)) * i2
+    w1 = w1 + (-1) * n * pw1
+    w2 = w2 + (-1) * n * pw2
+
+print(neural_output)
