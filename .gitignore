@@ -5,6 +5,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+COVID_19/tweet_scraper_tweepy.py
+
 # C extensions
 *.so
 
@@ -131,5 +133,4 @@ dmypy.json
 .pyre/
 
 *.csv
-*tweet_scraper_tweepy.py
 
