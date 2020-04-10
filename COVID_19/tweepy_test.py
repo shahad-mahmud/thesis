@@ -13,10 +13,10 @@ import time
 from datetime import datetime
 
 # Twitter credentials for the app
-consumer_key = 'GWjJzHWaHOmNycuNtlyKI9F0U'
-consumer_secret = 'SNPAyWBfjOXDAZXELy3m8CWXjzDl1NP22SIPZEbudz9A2LOrMO'
-access_key = '368305011-U0G3Cs9hdu5GymkknoroHrVI5Tbywh6aSzGCqDhT'
-access_secret = 'iELOscP633TfOh2DyWhlfQu4FrZoaZuMVWynpUGgSjrmg'
+consumer_key = 'xxxx'
+consumer_secret = 'xxxx'
+access_key = 'xxxx'
+access_secret = 'xxxx'
 
 # pass twitter credentials to tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
