@@ -5,7 +5,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-COVID_19/tweet_scraper_tweepy.py
+COVID_19/tweet_scraper_tweepy_f.py
 
 # C extensions
 *.so
