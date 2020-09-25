@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c44db5-c6ab-4b91-b7e1-ae0a077ae5ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/datasets/tweet_id_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/getTweets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/getTweetsFromId.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/results/generateCurve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/tweet_scraper_tweepy_f.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/tweetsForModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COVID_19/zipExtraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/shahad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/shahad.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/ET_emotion_file_generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/contains stop words/model1_pre_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/contains stop words/model1_recall_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/contains stop words/model2_pre_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/contains stop words/model2_recall_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/contains stop words/model3_pre_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/contains stop words/model3_recall_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/no stop words/model1_pre_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/no stop words/model1_recall_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/no stop words/model2_pre_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/no stop words/model2_recall_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/no stop words/model3_pre_val.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/COVID_19/results/no stop words/model3_recall_val.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COVID_19/datasets/tt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID_19/results/generateCurve.py" beforeDir="false" afterPath="$PROJECT_DIR$/COVID_19/results/generateCurve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/COVID_19/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/COVID_19/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +47,38 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true&#10;/media/shahad/Study, PDF, tutorials, datas/thesis/implementations/COVID_19/datasets/tweets_extracted/shorted/uploaded/test.py" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Extra/django/rest_tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/COVID_19/results/contains stop words" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/COVID_19/results/contains stop words" />
+      <recent name="$PROJECT_DIR$/COVID_19/results/no stop words" />
       <recent name="$PROJECT_DIR$/COVID_19" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.generateCurve">
+  <component name="RunManager" selected="Python.ET_emotion_file_generate">
+    <configuration name="ET_emotion_file_generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="implementations" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/COVID_19" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/COVID_19/ET_emotion_file_generate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="generateCurve" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="implementations" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,34 +184,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zipExtraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="implementations" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/COVID_19" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/COVID_19/zipExtraction.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ET_emotion_file_generate" />
         <item itemvalue="Python.generateCurve" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.tweetsForModel" />
         <item itemvalue="Python.tweet_id_file" />
-        <item itemvalue="Python.zipExtraction" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586514206392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="training pre re curve">
+      <created>1596530923810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530923810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -257,7 +270,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="tweet scraper" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweet scraper" />
+    <MESSAGE value="training pre re curve" />
+    <option name="LAST_COMMIT_MESSAGE" value="training pre re curve" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -267,29 +281,50 @@
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="389" y="199" width="643" height="403" key="#com.intellij.fileTypes.FileTypeChooser/66.27.1300.741@66.27.1300.741" timestamp="1594212161946" />
+    <state x="255" y="45" width="912" height="711" key="CommitChangelistDialog2" timestamp="1596530923293">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="255" y="45" width="912" height="711" key="CommitChangelistDialog2/66.27.1300.741@66.27.1300.741" timestamp="1596530923293" />
     <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595396227251">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl/66.27.1300.741@66.27.1300.741" timestamp="1595396227251" />
-    <state width="1277" height="214" key="GridCell.Tab.0.bottom" timestamp="1596530598110">
+    <state width="1351" height="246" key="GridCell.Tab.0.bottom" timestamp="1601007298833">
+      <screen x="66" y="27" width="1374" height="873" />
+    </state>
+    <state width="1277" height="214" key="GridCell.Tab.0.bottom/66.27.1300.741/1440.62.1366.768@66.27.1300.741" timestamp="1600229388917" />
+    <state width="1277" height="214" key="GridCell.Tab.0.bottom/66.27.1300.741@66.27.1300.741" timestamp="1599327414011" />
+    <state width="1351" height="246" key="GridCell.Tab.0.bottom/66.27.1374.873/1440.62.1366.768@66.27.1374.873" timestamp="1601007298833" />
+    <state width="1351" height="246" key="GridCell.Tab.0.center" timestamp="1601007298833">
+      <screen x="66" y="27" width="1374" height="873" />
+    </state>
+    <state width="1277" height="214" key="GridCell.Tab.0.center/66.27.1300.741/1440.62.1366.768@66.27.1300.741" timestamp="1600229388917" />
+    <state width="1277" height="214" key="GridCell.Tab.0.center/66.27.1300.741@66.27.1300.741" timestamp="1599327414010" />
+    <state width="1351" height="246" key="GridCell.Tab.0.center/66.27.1374.873/1440.62.1366.768@66.27.1374.873" timestamp="1601007298833" />
+    <state width="1351" height="246" key="GridCell.Tab.0.left" timestamp="1601007298832">
+      <screen x="66" y="27" width="1374" height="873" />
+    </state>
+    <state width="1277" height="214" key="GridCell.Tab.0.left/66.27.1300.741/1440.62.1366.768@66.27.1300.741" timestamp="1600229388917" />
+    <state width="1277" height="214" key="GridCell.Tab.0.left/66.27.1300.741@66.27.1300.741" timestamp="1599327414010" />
+    <state width="1351" height="246" key="GridCell.Tab.0.left/66.27.1374.873/1440.62.1366.768@66.27.1374.873" timestamp="1601007298832" />
+    <state width="1351" height="246" key="GridCell.Tab.0.right" timestamp="1601007298833">
+      <screen x="66" y="27" width="1374" height="873" />
+    </state>
+    <state width="1277" height="214" key="GridCell.Tab.0.right/66.27.1300.741/1440.62.1366.768@66.27.1300.741" timestamp="1600229388917" />
+    <state width="1277" height="214" key="GridCell.Tab.0.right/66.27.1300.741@66.27.1300.741" timestamp="1599327414010" />
+    <state width="1351" height="246" key="GridCell.Tab.0.right/66.27.1374.873/1440.62.1366.768@66.27.1374.873" timestamp="1601007298833" />
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596530926333">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state width="1277" height="214" key="GridCell.Tab.0.bottom/66.27.1300.741@66.27.1300.741" timestamp="1596530598110" />
-    <state width="1277" height="214" key="GridCell.Tab.0.center" timestamp="1596530598102">
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1596530926333" />
+    <state x="66" y="27" width="618" height="741" key="find.popup" timestamp="1600228906796">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state width="1277" height="214" key="GridCell.Tab.0.center/66.27.1300.741@66.27.1300.741" timestamp="1596530598102" />
-    <state width="1277" height="214" key="GridCell.Tab.0.left" timestamp="1596530598100">
-      <screen x="66" y="27" width="1300" height="741" />
-    </state>
-    <state width="1277" height="214" key="GridCell.Tab.0.left/66.27.1300.741@66.27.1300.741" timestamp="1596530598100" />
-    <state width="1277" height="214" key="GridCell.Tab.0.right" timestamp="1596530598104">
-      <screen x="66" y="27" width="1300" height="741" />
-    </state>
-    <state width="1277" height="214" key="GridCell.Tab.0.right/66.27.1300.741@66.27.1300.741" timestamp="1596530598104" />
-    <state x="0" y="27" width="618" height="741" key="find.popup" timestamp="1594212406211">
-      <screen x="66" y="27" width="1300" height="741" />
-    </state>
+    <state x="66" y="27" width="618" height="741" key="find.popup/66.27.1300.741/1440.62.1366.768@66.27.1300.741" timestamp="1600228906796" />
     <state x="0" y="27" width="618" height="741" key="find.popup/66.27.1300.741@66.27.1300.741" timestamp="1594212406211" />
+    <state x="416" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1601005415054">
+      <screen x="66" y="27" width="1374" height="873" />
+    </state>
+    <state x="416" y="214" width="672" height="678" key="search.everywhere.popup/66.27.1374.873/1440.62.1366.768@66.27.1374.873" timestamp="1601005415054" />
   </component>
 </project>
